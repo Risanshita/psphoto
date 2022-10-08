@@ -1,0 +1,141 @@
+.box {
+  background-color: white;
+  height: 500px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.middle {
+  margin-left: 10px;
+  /* margin-top: 10px; */
+  padding: 20px 30px;
+}
+.right {
+  margin-left: 10px;
+  /* margin-top: 10px; */
+}
+.btn {
+  background-color: #ffffff;
+  /* padding: 10px 30px; */
+  width: 480px;
+  height: 80px;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 10px;
+  color: #5b0eeb;
+}
+.name {
+  position: absolute;
+  bottom: 15%;
+  font-weight: 600;
+  /* font-size: 40px; */
+}
+.date {
+  position: absolute;
+  bottom: 5%;
+  font-weight: 600;
+  /* font-size: 40px; */
+}
+
+.navbar {
+  background-color: #d1d7df;
+}
+.Heading {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Subheading {
+  margin-top: 10px;
+  font-size: 18px;
+  color: gray;
+  font-weight: 600;
+}
+
+.options {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.input-box {
+  background-color: transparent !important;
+  border: 1px solid orange;
+  border-radius: 5px;
+  width: 300px;
+  margin-top: 10px;
+  height: 40px;
+}
+.colorbtn {
+  margin-left: 10px;
+  /* width: 30px;
+  height: 30px; */
+}
+.black {
+  background-color: black;
+}
+.white {
+  background-color: white;
+  color: white;
+}
+
+.colorbtn:hover {
+  background-color: transparent;
+  color: transparent;
+}
+.selector {
+  border: 1px solid orange;
+  margin-left: 20px;
+}
+.bgcolor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /* height: 40px; */
+  font-weight: 600;
+  color: black;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #8abdff97;
+  font-size: 20px;
+}
+.color {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  cursor: pointer;
+}
+.blue {
+  background-color: #44a1da;
+}
+.blue2 {
+  background-color: #2da8fb;
+}
+.blue3 {
+  background-color: #45b3fe;
+}
+.white {
+  background-color: rgb(231, 231, 231);
+}
+.black {
+  background-color: black;
+}
+
+@media screen and (max-width: 991px) {
+  .box {
+    margin: 10px;
+    /* background-color: aquamarine; */
+  }
+  .bodyy {
+    height: 100% !important;
+  }
+  .prograss {
+    margin-top: 10px;
+  }
+  .btn {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+  }
+  .pro {
+    display: none;
+  }
+}

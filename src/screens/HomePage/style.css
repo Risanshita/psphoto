@@ -1,0 +1,50 @@
+.homebody {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  height: 93%;
+}
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+}
+.left-box {
+  /* background-color: #ffffff; */
+  margin: 20px;
+  border-radius: 10px;
+  height: 90%;
+  width: 90%;
+}
+.right-box {
+  /* background-color: #ffffff; */
+
+  margin: 20px;
+}
+.img-upload {
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.upload-btn {
+  background-color: #5b0eeb;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.upload-btn:hover {
+  background-color: #0d41e1;
+  color: white;
+}
+.uploadlow {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #8abdff;
+}
+
+.ant-upload-list.ant-upload-list-text {
+  display: none !important;
+}
