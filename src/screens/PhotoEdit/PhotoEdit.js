@@ -46,7 +46,7 @@ function PhotoEdit() {
       className="bodyy"
       align="middle"
       justify="center"
-      style={{ width: "100%", height: "90%", padding: "0px 10px" }}
+      style={{ width: "100%", height: "100%", padding: "0px 10px" }}
     >
       <Row style={{ width: "100%", height: "100%" }}>
         <Col style={{ width: "100%", height: "100%" }}>
@@ -100,7 +100,7 @@ function PhotoEdit() {
                 className="bgcolor"
                 style={{ width: "100%", height: "10%", padding: "0px 20px" }}
               >
-                Backgound color :{" "}
+                Backgound color :
                 <div
                   className="color blue"
                   onClick={() => {
@@ -341,24 +341,25 @@ function PhotoEdit() {
           </Row>
           <Row
             justify="center"
+            className="btnspace"
             style={{ width: "100%", height: "12%", marginTop: "20px" }}
           >
             <Row
               align="middle"
               justify="space-between"
               style={{
-                width: "90%",
-                height: "100%",
+                width: "93%",
+                // height: "100%",
                 // backgroundColor: "white",
                 borderRadius: "10px",
                 padding: "0px 20px",
               }}
             >
               <Link to="/">
-                <Button className="btn">BACK</Button>
+                <Button className="btn back">BACK</Button>
               </Link>
 
-              <Button className="btn" onClick={NextClick}>
+              <Button className="btn next" onClick={NextClick}>
                 NEXT
               </Button>
             </Row>

@@ -44,13 +44,15 @@ function HomePage() {
               </Row>
             </Col>
           </Col>
-          <Col xs={24} sm={24} md={20} lg={10} xl={10} className="right-box">
+          <Col xs={24} sm={24} md={20} lg={2} xl={2} className="right-box1">
+            </Col>
+          <Col xs={24} sm={24} md={20} lg={9} xl={9} className="right-box">
             <Row
               align="middle"
               justify="center"
               style={{
-                width: "100%",
-                height: "500px",
+                width: "80%",
+                height: "400px",
               }}
             >
               <Col className="img-upload">
@@ -125,8 +127,9 @@ function HomePage() {
             <Row
               align="middle"
               justify="center"
+              className="bottominfo"
               style={{
-                width: "100%",
+                width: "80%",
                 height: "70px",
                 // backgroundColor: "gray",
               }}
